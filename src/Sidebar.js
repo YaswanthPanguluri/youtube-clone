@@ -8,9 +8,9 @@ import WhatshotIcon from '@mui/icons-material/Whatshot';
 function Sidebar() {
   return (
     <div className="sidebar">
-      <SidebarRow icon = {HomeIcon}title = "Home"/>
-      <SidebarRow icon = {WhatshotIcon}title = "Trending"/>
-      <SidebarRow icon = {SubscriptionsIcon}title = "Subscription"/>
+      <SidebarRow Icon = {HomeIcon}title = "Home"/>
+      <SidebarRow Icon = {WhatshotIcon}title = "Trending"/>
+      <SidebarRow Icon = {SubscriptionsIcon}title = "Subscription"/>
     </div>
   );
 }
